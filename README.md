@@ -55,5 +55,4 @@ status('foo') // throws
   "503": "Service Unavailable",
   "504": "Gateway Timeout"
 }
-// exemplo de status code
 ```
