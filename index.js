@@ -39,6 +39,11 @@ function getStatusMensagem (code) {
   return status.message[code];
 }
 
+const code = {
+  OK: console.log("Hello world")
+}
+code.OK
+
 const status = (code) => {
   if (typeof code === 'number') {
     return getStatusMensagem(code);
