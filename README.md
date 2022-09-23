@@ -1,6 +1,7 @@
 ## Projecto Status-Code 
 
 ### Install plugin
+Projecto esta indisponivel no npm temporariamente  :(
 ```
 npm i status-code-v1
 npm install status-code-v1
@@ -27,3 +28,5 @@ status('forbidden') // => 403
 status('Forbidden') // => 403
 status('foo') // throws
 ```
+
+

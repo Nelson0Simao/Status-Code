@@ -61,4 +61,3 @@ status.code = criarMensagemStatusCode(codes);
 status.codes = criarStatusCodeLista(codes);
 
 module.exports = status;
-
