@@ -20,6 +20,7 @@ retornara o nome em string do http code
 getPhraseCode(500) // => 'Internal Server Error'
 getPhraseCode(400) // => 'Bad Request'
 ```
+retornara um Object o nome em string do http code 
 ```js
 statusPhrases.BAD_GATEWAY // => 'Bad Gateway'
 statusPhrases.CONTINUE    // => 'Continue'
