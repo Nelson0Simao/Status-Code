@@ -28,7 +28,7 @@ status('forbidden') // => 403
 status('Forbidden') // => 403
 status('foo') // throws
 ```
-
+Exemplo de status code para usar no plugin
 ```json
 {
   "100": "Continue",
