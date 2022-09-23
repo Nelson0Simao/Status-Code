@@ -17,15 +17,20 @@ const status = require("status-code")
 ### status(code) 
 retornara o nome em string do http code
 ```js
-statusCodes.FORBIDDEN // => 'Forbidden'
-statusCodes.FORBIDDEN // => 'Forbidden'
+getPhraseCode(500) // => 'Internal Server Error'
+getPhraseCode(400) // => 'Bad Request'
 ```
+```js
+statusPhrases.BAD_GATEWAY // => 'Bad Gateway'
+statusPhrases.CONTINUE    // => 'Continue'
+```
+
 ### status(msg)
 returna o numero do status code referente a string
 
 ```js
 getStatusCode('NOT_FOUND') // => 404
-getStatusCode('NOT_FOUND') // => 404
+getStatusCode('CONTINUE') // => 200
 ```
 Exemplo de status code para usar no plugin
 ```json
