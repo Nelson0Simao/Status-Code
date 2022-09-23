@@ -1,5 +1,5 @@
 {
-  "name": "status-code",
+  "name": "status-code-v1",
   "version": "1.0.0",
   "description": "Este plugin serve para facilitar o uso do status code",
   "main": "index.js",
