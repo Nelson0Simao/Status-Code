@@ -62,5 +62,3 @@ status.codes = criarStatusCodeLista(codes);
 
 module.exports = status;
 
-console.log(status(200));
-
