@@ -1,5 +1,10 @@
 ## Projecto Status-Code 
 
+### Install plugin
+```
+npm i status-code-v1
+npm install status-code-v1
+```
 
 ```js
 const status = require("status-code")
@@ -16,6 +21,7 @@ status(306) // throws
 ```
 ### status(msg)
 returna o numero do status code referente a string
+
 ```js
 status('forbidden') // => 403
 status('Forbidden') // => 403
