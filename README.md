@@ -11,22 +11,21 @@ npm install status-code-v1
 const status = require("status-code")
 
 ```
-- status(): funcão ira retorna nome do status code
+- statusCodes: object ira retorna nome do status code
+- getStatusCode(): função recebe status code e return nome do estado 
 
 ### status(code) 
 retornara o nome em string do http code
 ```js
-status(403) // => 'Forbidden'
-status('403') // => 'Forbidden'
-status(306) // throws
+statusCodes.FORBIDDEN // => 'Forbidden'
+statusCodes.FORBIDDEN // => 'Forbidden'
 ```
 ### status(msg)
 returna o numero do status code referente a string
 
 ```js
-status('forbidden') // => 403
-status('Forbidden') // => 403
-status('foo') // throws
+getStatusCode('NOT_FOUND') // => 404
+getStatusCode('NOT_FOUND') // => 404
 ```
 Exemplo de status code para usar no plugin
 ```json
