@@ -1,7 +1,7 @@
 {
-  "name": "statuses",
+  "name": "status-code",
   "version": "1.0.0",
-  "description": "[![NPM Version][npm-version-image]][npm-url] [![NPM Downloads][npm-downloads-image]][npm-url] [![Node.js Version][node-version-image]][node-version-url] [![Build Status][ci-image]][ci-url] [![Test Coverage][coveralls-image]][coveralls-url]",
+  "description": "Este plugin serve para facilitar o uso do status code",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -335,8 +335,8 @@
     "type": "git",
     "url": "https://github.com/Nelson0Simao/Status-Code"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["brasil"],
+  "author": "Nelson Simao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nelson0Simao/Status-Code"
