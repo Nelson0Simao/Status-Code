@@ -333,13 +333,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jshttp/statuses.git"
+    "url": "https://github.com/Nelson0Simao/Status-Code"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jshttp/statuses/issues"
+    "url": "https://github.com/Nelson0Simao/Status-Code"
   },
-  "homepage": "https://github.com/jshttp/statuses#readme"
+  "homepage": "https://github.com/Nelson0Simao/Status-Code"
 }
