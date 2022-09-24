@@ -1,5 +1,4 @@
 const assert = require('assert')
-const http = require('http')
 const { statusCodes, getStatusCode, statusPhrases, getPhraseCode} = require('../src')
 
 describe('status', function () {
