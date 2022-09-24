@@ -30,6 +30,9 @@ retornara o nome do status code https
 getStatusCode('NOT_FOUND') // => 404
 getStatusCode('CONTINUE') // => 200
 ```
+
+### statusCodes.obj
+returna o numero do status code referente a string
 ```js
 statusPhrases.BAD_GATEWAY // => 'Bad Gateway'
 statusPhrases.CONTINUE    // => 'Continue'
@@ -39,7 +42,6 @@ retornara o status code http
 statusCodes.BAD_GATEWAY // => '502'
 statusCodes.CONTINUE    // => '100'
 ```
-returna o numero do status code referente a string
 
 Exemplo de status code para usar no plugin
 
