@@ -16,7 +16,6 @@ const status = require("status-code-v1")
 - statusPhrases: object que returna o na do status code em lowerCase
 - getStatusCode(): função recebe status code e return nome do estado 
 - getPhraseCode(): função que retorna nome do status code
-- 
 
 ### status(code) 
 retornara o nome em string do http code
