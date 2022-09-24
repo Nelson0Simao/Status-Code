@@ -11,8 +11,12 @@ npm install status-code-v1
 const status = require("status-code-v1")
 
 ```
-- statusCodes: object ira retorna nome do status code
+### Funcão
+- statusCodes: object ira retorna number do status code
+- statusPhrases: object que returna o na do status code em lowerCase
 - getStatusCode(): função recebe status code e return nome do estado 
+- getPhraseCode(): função que retorna nome do status code
+- 
 
 ### status(code) 
 retornara o nome em string do http code
@@ -27,8 +31,8 @@ statusPhrases.CONTINUE    // => 'Continue'
 ```
 retornara o status code http 
 ```js
-statusCode.BAD_GATEWAY // => '502'
-statusCode.CONTINUE    // => '100'
+statusCodes.BAD_GATEWAY // => '502'
+statusCodes.CONTINUE    // => '100'
 ```
 
 ### status(msg)
