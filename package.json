@@ -13,11 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/Nelson0Simao/Status-Code.git"
   },
-  "keywords": ["brasil"],
+  "keywords": [
+    "brasil"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nelson0Simao/Status-Code/issues"
   },
-  "homepage": "https://github.com/Nelson0Simao/Status-Code#readme"
+  "homepage": "https://github.com/Nelson0Simao/Status-Code#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
 }
