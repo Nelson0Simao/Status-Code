@@ -8,7 +8,7 @@ npm install status-code-v1
 ```
 
 ```js
-const status = require("status-code")
+const status = require("status-code-v1")
 
 ```
 - statusCodes: object ira retorna nome do status code
