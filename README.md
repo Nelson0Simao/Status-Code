@@ -22,7 +22,9 @@ retornara o nome em string do http code
 ```js
 getPhraseCode(500) // => 'Internal Server Error'
 getPhraseCode(400) // => 'Bad Request'
+
 ```
+### status(msg)
 retornara o nome do status code https 
 ```js
 statusPhrases.BAD_GATEWAY // => 'Bad Gateway'
@@ -33,8 +35,6 @@ retornara o status code http
 statusCodes.BAD_GATEWAY // => '502'
 statusCodes.CONTINUE    // => '100'
 ```
-
-### status(msg)
 returna o numero do status code referente a string
 
 ```js
