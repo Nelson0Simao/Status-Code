@@ -17,7 +17,7 @@ const status = require("status-code-v1")
 - getStatusCode(): função recebe status code e return nome do estado 
 - getPhraseCode(): função que retorna nome do status code
 
-### status(code) 
+### getPhraseCode(code) 
 retornara o nome em string do http code
 ```js
 getPhraseCode(500) // => 'Internal Server Error'
@@ -26,6 +26,10 @@ getPhraseCode(400) // => 'Bad Request'
 ```
 ### status(msg)
 retornara o nome do status code https 
+```js
+getStatusCode('NOT_FOUND') // => 404
+getStatusCode('CONTINUE') // => 200
+```
 ```js
 statusPhrases.BAD_GATEWAY // => 'Bad Gateway'
 statusPhrases.CONTINUE    // => 'Continue'
@@ -37,10 +41,6 @@ statusCodes.CONTINUE    // => '100'
 ```
 returna o numero do status code referente a string
 
-```js
-getStatusCode('NOT_FOUND') // => 404
-getStatusCode('CONTINUE') // => 200
-```
 Exemplo de status code para usar no plugin
 
 | NAME STATUS CODE | STATUS CODE |
