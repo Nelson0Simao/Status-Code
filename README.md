@@ -24,7 +24,7 @@ getPhraseCode(500) // => 'Internal Server Error'
 getPhraseCode(400) // => 'Bad Request'
 
 ```
-### status(msg)
+### getStatusCode(msg)
 retornara o nome do status code https 
 ```js
 getStatusCode('NOT_FOUND') // => 404
