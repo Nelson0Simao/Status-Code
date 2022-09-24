@@ -1,5 +1,5 @@
 {
-  "name": "statuscode",
+  "name": "status-code-v1",
   "version": "1.0.0",
   "description": "### Install plugin ``` npm i status-code-v1 npm install status-code-v1 ```",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Nelson0Simao/Status-Code.git"
   },
-  "keywords": [],
+  "keywords": ["brasil"],
   "author": "",
   "license": "ISC",
   "bugs": {
