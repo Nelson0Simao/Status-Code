@@ -1,5 +1,6 @@
 ## Projecto Status-Code 
-
+***
+* Desenvolvidor: Nelson Simão
 ### Install plugin
 Projecto esta indisponivel no npm temporariamente  :(
 ```
