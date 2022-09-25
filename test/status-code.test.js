@@ -1,5 +1,5 @@
 const assert = require('assert')
-const { statusCodes, getStatusCode, statusPhrases, getPhraseCode} = require('../src')
+const { statusCodes, getStatusCode, statusPhrases, getPhraseCode} = require('./../')
 
 describe('status', function () {
   describe('argumentos', function () {
