@@ -2,7 +2,7 @@
 ***
 * Desenvolvidor: Nelson Simão
 ### Install plugin
-Projecto esta indisponivel no npm temporariamente  :(
+Projecto esta disponivel no npm para uso  :)
 ```
 npm i status-code-v1
 npm install status-code-v1
