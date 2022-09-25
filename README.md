@@ -21,8 +21,12 @@ const status = require("status-code-v1")
 ### getPhraseCode(code) 
 retornara o nome em string do http code
 ```js
+statusCodeToPhrase[100]
 getPhraseCode(500) // => 'Internal Server Error'
 getPhraseCode(400) // => 'Bad Request'
+
+statusCodeToPhrase[500] // => 'Internal Server Error'
+statusCodeToPhrase[400] // => 'Bad Request'
 
 ```
 ### getStatusCode(msg)
