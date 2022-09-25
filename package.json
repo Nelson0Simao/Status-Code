@@ -1,6 +1,6 @@
 {
   "name": "status-code-v1",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "### Install plugin ``` npm i status-code-v1 npm install status-code-v1 ```",
   "main": "index.js",
   "directories": {
