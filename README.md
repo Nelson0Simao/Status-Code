@@ -1,6 +1,6 @@
 ## Projecto Status-Code 
 ***
-* Desenvolvidor: Nelson Simão
+* Desenvolvidor: Nelson Carlos Simão
 ### Install plugin
 Projecto esta disponivel no npm para uso  :)
 ```
